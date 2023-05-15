@@ -1,0 +1,136 @@
+html,
+body {
+      margin: 0;
+      height: 100%;
+      font-family: "Inter", sans-serif;
+}
+
+/* Header */
+
+#header {
+      border-bottom: 1px solid gray;
+      display: flex;
+      padding: 20px 0;
+      justify-content: space-around;
+}
+
+.logo-technology:hover {
+      cursor: pointer;
+}
+
+nav {
+      font-size: 12px;
+      font-weight: 500;
+      display: flex;
+      align-items: center;
+      gap: 20px
+}
+
+.fa-brands {
+      margin-left: 15px;
+      font-size: 15px;
+      width: auto;
+}
+
+.fa-brands:hover {
+      color: #9e23ff
+}
+
+/* Main */
+
+#introduction {
+      padding: 48px;
+}
+
+h1 {
+      margin: 0px 190px;
+      text-align: center;
+      color: #201b24;
+      font-weight: 550;
+}
+
+button {
+      font-size: 12px;
+}
+
+button.redondo {
+      background-color: white;
+      border: 2px solid #050506;
+      border-radius: 25px;
+      padding: 0px 20px;
+      height: 32px;
+}
+
+#introduction-actions {
+      display: flex;
+      justify-content: center;
+      margin-top: 25px;
+}
+
+button:hover {
+      cursor: pointer;
+}
+
+.redondo.violeta {
+      margin-left: 14px;
+      color: #6b53f0;
+      border: 2px solid #6b53f0;
+}
+
+.redondo.violeta:hover {
+      background-color: #6b53f0;
+      color: white;
+}
+
+.redondo.negro:hover {
+      background-color: #201b24;
+      color: white;
+}
+
+#introduction-text h1 {
+      font-size: 1em;
+      font-size: 28px;
+}
+
+nav p:hover {
+      color: #6b53f0;
+      cursor: pointer;
+
+}
+
+/* Footer */
+
+#mi-footer {
+      background-color: #201B24;
+      color: white;
+      display: flex;
+      padding: 140px;
+      justify-content: center;
+}
+
+#mi-footer p {
+      font-size: 13px;
+}
+
+.violet {
+      color: #6b53f0;
+      font-weight: 300;
+      font-size: 35px;
+}
+
+#footer-description {
+      width: 30vw;
+}
+
+.container {
+      display: flex;
+      flex-direction: row;
+      align-self: flex-end;
+      gap: 25px;
+}
+
+.numbers h2 {
+      font-size: 45px;
+      margin: 0;
+      padding: 0;
+}
